@@ -2,18 +2,18 @@ body{font-family:'Luxurious Roman', cursive;
     margin: 0;}
 h1{font-size: 40px;
     margin: 5px;}
-.orange-color{color:orange;}
-           .container{
-        display: flex;
+.orange-color{color:orange;
+            }
+    .container{
+    display: flex;
         margin-bottom: 200px;
     }
-    .width-size{
+    .width-size1{
         width:50%;
         padding-left: 8%;
         padding-top:7%;
     }
-        
-         .width-size img{
+             .width-size1 img{
             width: 50%;
             }
             .button-size
@@ -26,3 +26,34 @@ h1{font-size: 40px;
                 border-radius: 5px;
 
             }
+            h2{text-align: center;
+            }
+            .width-size2{
+                width:30%;
+                padding-left: 8%;
+                padding-top:7%;
+            }
+            .width-size2 img{
+            width: 30%;    
+        }
+        #mission-part{
+            box-shadow: 10px 10px 30px gainsboro;
+            margin-left: 8%;
+            padding-left: 20px;
+            border-radius:10px;
+            background-color:rgba(223, 244, 250, 0.767);
+        }
+        #vission-part{
+            box-shadow: 10px 10px 50px gainsboro;
+            margin-left:2%;
+            padding-left: 20px;
+            border-radius:10px;
+            background-color:rgb(253, 231, 221);
+        }
+        #goals-part{
+        box-shadow: 10px 10px 50px gainsboro;
+        margin-left:2%;
+        padding-left: 20px;
+        border-radius:10px;
+        background-color:rgba(250, 237, 212, 0.705);
+        }
