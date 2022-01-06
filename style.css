@@ -4,9 +4,14 @@ h1{font-size: 40px;
     margin: 5px;}
 .orange-color{color:orange;
             }
+            .border-side{
+                border-left: 3px solid;
+                border-image:linear-gradient(blue,cyan);
+                border-image-slice:1;
+            }  
     .container{
     display: flex;
-        margin-bottom: 200px;
+        margin-bottom: 100px;
     }
     .width-size1{
         width:50%;
@@ -26,7 +31,7 @@ h1{font-size: 40px;
                 border-radius: 5px;
 
             }
-            h2{text-align: center;
+            #header-alignment{text-align: center;
             }
             .width-size2{
                 width:30%;
@@ -57,3 +62,33 @@ h1{font-size: 40px;
         border-radius:10px;
         background-color:rgba(250, 237, 212, 0.705);
         }
+        .width-size3{
+            width:50%;
+        padding-left: 8%;
+        }
+        .width-size3.1{
+            width:60%;
+        padding-left:2%;
+        
+    }
+        .width-size3 img{
+            width: 85%;
+            }
+            h2{margin: 5px;}
+
+            #limit{
+                background-image: url(images/shape-1.png);
+                background-repeat: no-repeat;
+                background-position:left;
+                background-size:40%;
+                padding-left:50px;
+                margin-left:3%;
+            }
+            .below{text-align:center;
+            background-color: black;
+            }
+            .font-style{font-family:'The Nautigal', cursive;}
+            .orange{color:rgb(248, 12, 103);}
+            h2{color:white;}
+            .white{color:white;
+            font-size:10px;}
