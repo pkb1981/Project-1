@@ -1,0 +1,28 @@
+body{font-family:'Luxurious Roman', cursive;
+    margin: 0;}
+h1{font-size: 40px;
+    margin: 5px;}
+.orange-color{color:orange;}
+           .container{
+        display: flex;
+        margin-bottom: 200px;
+    }
+    .width-size{
+        width:50%;
+        padding-left: 8%;
+        padding-top:7%;
+    }
+        
+         .width-size img{
+            width: 50%;
+            }
+            .button-size
+            {
+                text-decoration:none;
+                background-image:linear-gradient(rgba(13, 245, 13, 0.705),rgba(9, 185, 147, 0.548));
+                color: ivory;
+                font-weight: 700;
+                padding:10px 30px ;
+                border-radius: 5px;
+
+            }
