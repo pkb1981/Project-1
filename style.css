@@ -63,20 +63,27 @@ h1{font-size: 40px;
         background-color:rgba(250, 237, 212, 0.705);
         }
         .width-size3{
-            width:30%;
+            width:50%;
+            margin-left:15%;
                }
         .width-size3 img{
-         width: 85%;
+         width: 80%;
+         
            } 
         .width-size4{
-            width:70%;
+            width:50%;
             margin-left:8%;
         }
-      
-        .width-size4 img{
+              .width-size4 img{
               width:60%;
           }
-
+          .width-size5{
+            width:20%;
+            margin-left:8%; 
+          }
+          .width-size5 img{
+            width:20%;
+          }
             #community{
                 background-image:url(images/shape-1.png);
                 background-repeat: no-repeat;
@@ -85,14 +92,34 @@ h1{font-size: 40px;
                 padding-bottom:10%;
                 padding-right:10%;
             }
-
+            #go1{
+                background-image: url(images/shape-3.png);
+                background-repeat:no-repeat;
+                background-position:top;
+                background-size:20%;
+                padding-left:10%;
+                padding-top:2%;
+            }
+           
             #limit{
                 background-image: url(images/shape-1.png);
                 background-repeat: no-repeat;
                 background-position:left;
-                background-size:40%;
+                background-size:35%;
                 padding-left:5%;
-                margin-left:3%;
+                margin-left:4%;
+            }
+            .middle{
+                text-align:center;
+            }
+            .width-size5{
+                width:50%;
+                
+            }
+            .width-size5 img{
+                width:40%;
+                height: auto;
+                margin-left:30%;
             }
             .below{text-align:center;
             background-color: black;
