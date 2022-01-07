@@ -36,7 +36,7 @@ h1{font-size: 40px;
             .width-size2{
                 width:30%;
                 padding-left: 8%;
-                padding-top:7%;
+                padding-top:2%;
             }
             .width-size2 img{
             width: 30%;    
@@ -63,32 +63,42 @@ h1{font-size: 40px;
         background-color:rgba(250, 237, 212, 0.705);
         }
         .width-size3{
-            width:50%;
-        padding-left: 8%;
-        }
-        .width-size3.1{
-            width:60%;
-        padding-left:2%;
-        
-    }
+            width:30%;
+               }
         .width-size3 img{
-            width: 85%;
+         width: 85%;
+           } 
+        .width-size4{
+            width:70%;
+            margin-left:8%;
+        }
+      
+        .width-size4 img{
+              width:60%;
+          }
+
+            #community{
+                background-image:url(images/shape-1.png);
+                background-repeat: no-repeat;
+                background-position:bottom;
+                background-size:30%;
+                padding-bottom:10%;
+                padding-right:10%;
             }
-            h2{margin: 5px;}
 
             #limit{
                 background-image: url(images/shape-1.png);
                 background-repeat: no-repeat;
                 background-position:left;
                 background-size:40%;
-                padding-left:50px;
+                padding-left:5%;
                 margin-left:3%;
             }
             .below{text-align:center;
             background-color: black;
             }
-            .font-style{font-family:'The Nautigal', cursive;}
+            .font-style{font-family:'The Nautigal', cursive;
+                color:white;}
             .orange{color:rgb(248, 12, 103);}
-            h2{color:white;}
             .white{color:white;
             font-size:10px;}
